@@ -44,16 +44,27 @@
   margin-bottom: 2rem;
 }
 
-.splashTitle {
+.splashTitle2 {
+  font-family: "Press Start 2P", cursive;
+  max-width: 1200px;
+  margin: 0;
+  line-height: 1.15;
+  font-size: 2rem;
+  margin-bottom: 2rem;
+}
+
+.splashTitle,
+.splashTitle2 {
   color: white;
 }
 
 .blueTitle {
-  color: #2f9ee4;
+  color: #e4472f;
 }
 
 .title,
 .splashTitle,
+.splashTitle2,
 .description {
   text-align: center;
 }
@@ -75,7 +86,8 @@
 }
 
 .background {
-  background-image: url("../public/assets/bg.png");
+  background:linear-gradient(0deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../public/assets/love/pixel-galaxy.gif");
+  /* background-image: url("../public/assets/love/pixel-galaxy.gif"), linear-gradient(rgba(0,0,0,0.9),rgba(0,0,0,0.9)); */
   background-size: cover;
 }
 
@@ -95,6 +107,7 @@
 
   .blueTitle,
   .splashTitle,
+  .splashTitle2,
   .title {
     font-size: 2.5rem;
   }

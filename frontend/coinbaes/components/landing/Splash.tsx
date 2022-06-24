@@ -8,7 +8,8 @@ const SplashBanner = () => {
     <div id="splash">
       <div className={styles.background}>
         <main className={styles.main}>
-          <h1 className={styles.splashTitle}>Non-fungible Coinbaes</h1>
+          <h1 className={styles.splashTitle}>Love 3.0</h1>
+          <h2 className={styles.splashTitle2}>Marry me… in metaverse</h2>
           <Link href="/mint">
             <Button
               style={{
@@ -17,7 +18,7 @@ const SplashBanner = () => {
                 borderRadius: "0",
               }}
             >
-              ⚡️ minting now ⚡️
+              ❤️ Make your love digital ❤️
             </Button>
           </Link>
           <div className={styles.coinbaes}>
